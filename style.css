@@ -1,4 +1,50 @@
 html {
-  background-color: rgb(58, 4, 109);
-  color: aliceblue;
+  /* background-color: rgb(58, 4, 109); */
+  /* color: aliceblue; */
+  text-align: center;
+}
+
+h1 {
+  margin: 2rem auto;
+}
+.container {
+  font-size: 1.5rem;
+}
+label {
+  font-size: 1.2rem;
+}
+input {
+  width: 180px;
+  margin: 1.5rem auto;
+  padding: 6px 6px;
+  font-size: 1.2rem;
+}
+
+button {
+  width: 100px;
+  margin: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  font-size: 1.4rem;
+  border-radius: 30px;
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
+.green {
+  background-color: green;
+  color: white;
+}
+.blue {
+  background-color: blue;
+  color: white;
+}
+.output {
+  width: 340px;
+  height: 60px;
+  padding: 4rem 1rem;
+  margin: auto;
+  font-size: 1.8rem;
+  border: 1px dashed black;
 }

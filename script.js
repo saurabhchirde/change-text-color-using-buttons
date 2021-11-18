@@ -7,22 +7,35 @@ const btnClear = document.querySelector(".clear");
 
 function start() {
   input.value = "";
+  output.style.color = "black";
   output.innerText = "";
 }
 
 const red = () => {
-  output.style.color = "red";
-  output.innerText = input.value;
+  if (input.value != "") {
+    output.style.color = "red";
+    output.innerText = input.value;
+  } else {
+    output.innerText = "Enter some text !";
+  }
 };
 
 const green = () => {
-  output.style.color = "green";
-  output.innerText = input.value;
+  if (input.value != "") {
+    output.style.color = "green";
+    output.innerText = input.value;
+  } else {
+    output.innerText = "Enter some text !";
+  }
 };
 
 const blue = () => {
-  output.style.color = "blue";
-  output.innerText = input.value;
+  if (input.value != "") {
+    output.style.color = "blue";
+    output.innerText = input.value;
+  } else {
+    output.innerText = "Enter some text !";
+  }
 };
 
 btnRed.addEventListener("click", red);
