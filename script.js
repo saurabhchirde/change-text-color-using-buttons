@@ -5,11 +5,11 @@ const btnBlue = document.querySelector(".blue");
 const output = document.querySelector(".output");
 const btnClear = document.querySelector(".clear");
 
-function start() {
+const start = () => {
   input.value = "";
   output.style.color = "black";
   output.innerText = "";
-}
+};
 
 const red = () => {
   if (input.value != "") {
